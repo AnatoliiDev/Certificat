@@ -1,0 +1,73 @@
+
+.tableGener {
+    width: 400px; 
+    position:relative;
+    left: 200px;
+    top: 100px;
+    border-spacing: 0px;    
+    font-size: 15px;
+    text-align: left;   
+}
+
+#tbl td {
+    padding: 5px 10px 5px 10px ;
+}
+
+.curPoint, #btn:hover {
+    cursor: pointer;
+}
+
+#cert-info {
+    height: 200px;
+    width: 400px;
+    position:absolute;    
+    left: 700px;
+    top: 100px;
+    padding-top: 15px;
+    padding-left: 10px;        
+}
+
+.main {
+    border: 1px solid;
+    border-color: black;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(177, 170, 177);
+}
+
+#btnAdd {
+    margin-top: 30px;
+    height: 40px;
+    width: 170px;
+    position: relative;
+    left: 350px;
+    top: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.drag-drop {    
+    border-style: dashed;
+    color: #c0c0c0;
+    cursor: pointer;    
+}
+
+.selected {
+    background-color: #e6e6e6;
+    cursor: default;
+}
+
+.cursor {
+    cursor: default;
+}
+
+.spanIcon{
+    float: right;
+    padding-top: 3px;
+}
+.viewDetail {
+    font-size: 14px;
+    color: black;
+    text-align: left;
+}
